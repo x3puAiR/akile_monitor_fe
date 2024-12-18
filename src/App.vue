@@ -148,7 +148,7 @@ const initScoket = async () => {
       console.error('解析 WebSocket 消息时出错:', error);
     }
   };
-A
+
   socket.onopen = function () {
     sendPing()
   }
